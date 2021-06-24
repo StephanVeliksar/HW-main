@@ -1,32 +1,62 @@
 header {
-    padding: 35px 0;
-    background-color:var(--background-color);
+    padding: 30px 0;
+    background-color: var(--background-color);
 }
 
-header div nav {
-    width:var(--content-width);
-    margin: 0 auto;
-    background-color: #171515;
-    font-family: var(--font-family2);
-    font-size: larger;
+header #menu_trigger {
+    display: none;
+}
+header label[for=menu_trigger] {
+    display: none;
 }
 
-header div nav a {
-    color: white;
+
+header nav {
+    background-color: black;
+}
+
+header nav a {
+    color: #ffffff;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
     transition: background-color 0.3s;
 }
 
-header div nav a:hover {
-    background-color: #ec0505;
+header nav a:hover {
+    background-color: #ff1414;
 }
 
-header div nav ul {
+header nav ul:not(.dropdown) {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: center;
+}
+
+header nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header nav ul:not(.dropdown) li {
+    position: relative;
+}
+
+header nav ul li:hover ul.dropdown {
+    top: 100%;
+    display: block;
+}
+
+header nav ul.dropdown li {
+    background-color: var(--background-color);
+}
+
+header nav ul.dropdown li a {
+    display: inline-block;
+    text-align: center;;
+    background-color: #807c7c;
+    width: 400px;
 }

@@ -1,12 +1,13 @@
 .footer {
     font-family: var(--font-family2);
+    margin-top:40px;
 }
 .footer-container{
     width:var(--content-width);
     display: flex;
     margin: 0 auto;
     background-color: black;
-    padding-top: 25px;
+    padding-top: 20px;
 
 
 }

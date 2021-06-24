@@ -8,25 +8,47 @@
 </head>
 <body>
 <header>
-    <div>
+
+    <div class="container">
+        <div class="menu">
+            <label for="menu_trigger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+            <input id="menu_trigger" type="checkbox">
             <nav>
                 <ul>
-                    <li>
-                        <a href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="#">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a href="#">CONTACT</a>
-                    </li>
+                            <li>
+                                <a href="#">HOME</a>
+                                            <ul class="dropdown">
+                                                <li>
+                                                    <a href="">NEWS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Favourites</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Hobby</a>
+                                                </li>
+
+                                            </ul>
+                            </li>
+                            <li>
+                                <a href="#">PORTFOLIO</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT</a>
+                            </li>
+
                 </ul>
             </nav>
+        </div>
     </div>
-
 </header>
 <main>
 
@@ -252,22 +274,75 @@
 
     </div>
 
+    <div class="design">
+                    <div class="container">
+                                <div class="design-content">
+                                    <div class="design-tittle">
+                                        <h2> Design tips, tricks, and freebies. Delivered weekly.
+                                        </h2>
+                                         <small>Lorem ipsum dolor sit amet, consecteur adipis cing elit sed do eusmod.
+                                         </small>
 
-    <div class="container">
-            <div class="design">
-                <div>
-                    <h> Design tips, tricks, and freebies. Delivered weekly.
-                    </h>
-                    <p>Lorem ipsum dolor sit amet, consecteur adipis cing elit sed do eusmod.
-                    </p>
-                </div>
-                <div class="email">
-                    <p>Email: <input type="email" name="Email Address..."></p>
-                    <a href="#" class="button">SUBSCRIBE</a>
-                </div>
+                                    </div>
+                                    <div class="email">
+                                         <input type="email" name="Email Address..." placeholder="Email Address...">
+                                        <a href="#" class="button">SUBSCRIBE</a>
+                                    </div>
+                                </div>
+
+                    </div>
             </div>
 
+
+    <div class="get-it-touch">
+        <div class="container">
+            <div class="tittle">
+                <h2>
+                        GET IN TOUCH
+                </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consecteur adipis cing elit sed do eusmod lorem
+                        ipsum dolor sit amet, consecteur adipis cing elit sed do
+                        eusmod lorem ipsum dolor sit amet.
+                    </p>
+
+                <div>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-form">
+                    <div class="form">
+                        <div class="name">
+                        <input type="text" name="name" required="required" placeholder="Name">
+                    </div>
+                        <div class="mail">
+                            <input type="email" name="email" required="required"  placeholder="Your Email">
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <textarea name="message" cols="73" rows="15" placeholder="Type your message"></textarea>
+
+                             <a href="#" class="message">Send Message...</a>
+                    </div>
+                </div>
+                <div class="right-form">
+                    <h3> Contact info</h3>
+                    <p>Jalalabad 24/A, Ambaarkhana, Sylhet,
+                    Bangladesh.
+                    </p>
+                    <p>redwan@ddeviserweb.com</p>
+                    <p>(+88)0161746373</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
     </div>
+
 
 </main>
 <footer>

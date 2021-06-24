@@ -1,0 +1,85 @@
+.get-it-touch .container{
+    padding-top: 150px;
+    font-family: var(--font-family) ;
+}
+.tittle hr{
+    margin: 0;
+    max-width: 120px;
+    background-color: red;
+    height: 3px;
+
+}
+.tittle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 80px;
+}
+input[type="text"] {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;}
+
+input[required],
+textarea{
+ background-color: #e5e9ea;
+}
+input[type="email"] {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.left-form,
+.right-form{
+    flex-wrap: wrap;
+}
+.form {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between; }
+
+a.message {
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fd0000;
+    display: flex;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 534px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.right-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #242424;
+    margin-left: 50px;
+    width: 100%;
+}
+.right-form h3,
+.right-form p {
+    color: white;
+}
+
+.container .row .right-form{
+position: relative;
+}
+.container .row .right-form:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #242424 ;
+    top: 0;
+    right: -100%;
+    height: 100%;
+}
+
+

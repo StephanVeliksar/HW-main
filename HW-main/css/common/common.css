@@ -1,11 +1,14 @@
 .container {
     width: var(--content-width);
     margin: 0 auto;
-    padding: 0 15px;
-}
 
+}
+.row {
+    display: flex;
+
+}
 .container-xl {
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
     padding: 15px;
 }
