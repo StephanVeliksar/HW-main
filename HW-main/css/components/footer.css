@@ -1,0 +1,28 @@
+.footer {
+    font-family: var(--font-family2);
+}
+.footer-container{
+    width:var(--content-width);
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 25px;
+
+
+}
+.footer .footer-container .left-footer p {
+    color: white;
+}
+
+.footer .footer-container .left-footer,
+.footer .footer-container .right-footer
+{
+    margin: 0 auto;
+}
+
+button.foot{
+    width: 25px;
+    border-radius: 50%;
+    padding: 0;
+    color: #242424;
+}

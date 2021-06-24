@@ -1,0 +1,12 @@
+@import "common/index.css";
+
+@import "components/body.css";
+@import "components/header.css";
+@import "components/banner.css";
+@import "components/block1.css";
+@import "components/block2.css";
+@import "components/gallery.css";
+@import "components/team.css";
+@import "components/design.css";
+@import "components/ToTop.css";
+@import "components/footer.css";

@@ -1,0 +1,16 @@
+.ToTop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3a2fe2;
+    color: #fff7f7;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+}
